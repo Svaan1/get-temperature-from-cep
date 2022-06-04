@@ -5,7 +5,7 @@ def get_city_from_cep(cep): # Usa a biblioteca dos correios e pega o endereço b
     return get_address_from_cep(cep, webservice=WebService.VIACEP)['cidade']
 
 def get_api_link(city):  # Forma o link da API com a cidade adquirida e a chave do usuário.
-    API_KEY = "d1b815f1193a472142a2d79adcadb484" # Minha key da API "OpenWeather", https://openweathermap.org/.
+    API_KEY = "your key here" # Minha key da API "OpenWeather", https://openweathermap.org/.
     api_link = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&lang=pt_br"
 
     return api_link
