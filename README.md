@@ -1,7 +1,7 @@
-## get-temperature-from-cep
+# get-temperature-from-cep
 Returns local temperature with the CEP as input.
 
-# Libraries used
+## Libraries used
 - Requests (To access the API's URL)
 - Pycep_correios (Getting the CEP's city name)
 
