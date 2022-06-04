@@ -9,6 +9,11 @@ Returns local temperature with the CEP as input.
 - OpenWeather (Getting local temperature and climate description. https://openweathermap.org/)
 
 ## How to use
+
+Dont forget to get your own key on the given link and change API_KEY's value
+
+Example of function calling:
 ```
 get_temperature("25961-025")
 ```
+
